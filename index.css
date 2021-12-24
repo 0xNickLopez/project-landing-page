@@ -19,7 +19,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #bac8e2;
 }
 
 #btn {
@@ -42,6 +42,11 @@ a {
 
 .hero {
     background-color: #1F2937;
+    padding: 60px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    flex-direction: row;
 }
 
 .hero-text {
@@ -53,7 +58,9 @@ a {
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 500;
 }
+
 
 .nav-links {
     list-style: none;
