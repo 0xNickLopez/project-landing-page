@@ -34,6 +34,11 @@ a {
 
 }
 
+#btn:hover {
+    cursor: pointer;
+    color: #e3ff47
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -44,12 +49,13 @@ a {
     background-color: #1F2937;
     padding: 60px 0px;
     display: flex;
-    align-items: stretch;
-    justify-content:flex-start;
+    align-items: flex-start;
+    justify-content:space-evenly;
     flex-direction: row;
     position: relative;
     height: 100%;
 }
+
 
 .hero-text {
     font-size: 48px;
@@ -61,6 +67,15 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 500;
+    line-height: normal;
+    margin: 0 0 10px 0;
+    opacity: .80;
+}
+
+.hero-img {
+    max-width: 70%;
+    max-height: auto;
+    margin: 0 20px;
 }
 
 .nav-links {
@@ -173,6 +188,11 @@ a {
     outline: none;
     padding: 0 20px;
     font-weight: 600;
+}
+
+.action button:hover {
+    cursor: pointer;
+    color: #e3ff47
 }
 
 footer {
