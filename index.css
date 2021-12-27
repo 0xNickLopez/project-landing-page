@@ -73,9 +73,12 @@ a {
 }
 
 .hero-img {
-    max-width: 70%;
-    max-height: auto;
     margin: 0 20px;
+    text-align: center;
+    color: #E5E7EB;
+    opacity: .80;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 .nav-links {
