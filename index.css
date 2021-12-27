@@ -137,6 +137,44 @@ a {
     content: "-";
 }
 
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 70px 100px;
+    background-color: #3882F6;
+    color: #f5f5f5;
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.action-maintext {
+    line-height: normal;
+    padding: 0px;
+    opacity: .80;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-subtext{
+    line-height: normal;
+    padding: 0px;
+    opacity: .80;
+    font-size: 16px;
+}
+
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
 footer {
     background-color: #1F2937;
     text-align: center;
